@@ -1,6 +1,6 @@
 import telebot
 from gradio_client import Client
-bot=telebot.TeleBot('6197009361:AAENWL8Bjn18gZPhdyUCOcmzPKHpHWLDIlU')
+bot=telebot.TeleBot('')
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     if message.text=="/start":
